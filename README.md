@@ -40,4 +40,8 @@ Se presenta servicio REST con dos metodos un POST y un GET, que recibe una caden
  <li>Dar click en EXCECUTE</li> 
  </ol>
  
+  <li>Escoger el metodo GET del controlador Stat Controller</li>
+ <li>Escoger la opción TRY of out</li> 
+ <li>Dar click en EXCECUTE</li> 
+ </ol>
  
