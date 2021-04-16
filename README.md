@@ -1,3 +1,5 @@
+autor: Farid Ureche
+
 <h1>Prueba técnica Solati</h1>
 
 Se presenta servicio REST con dos metodos un POST y un GET, que recibe una cadena de un genoma y definine si se trata de un humano o un extraterreste.
