@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: solati
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: solati
+  template:
+    metadata:
+      labels:
+        app: solati
+    spec:
+      containers:
+        - name: solati
+          image: elturcofarid/prueba_solati:1.0.0
+          ports:
+            - name: http-port
+              containerPort: 9191
+          resources:
+            requests:
+              memory: "350Mi"
+              cpu: "100m"
+            limits:
+              memory: "700Mi"
+              cpu: "850m"
